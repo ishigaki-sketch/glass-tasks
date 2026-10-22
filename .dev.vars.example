@@ -1,0 +1,5 @@
+# ローカル開発用（このファイルを .dev.vars にコピーして値を入れる。Git には含めない）
+GOOGLE_CLIENT_ID=xxxxxxxx.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=GOCSPX-xxxxxxxx
+SESSION_SECRET=ランダムな長い文字列（openssl rand -base64 32 などで生成）
+APP_ORIGIN=http://localhost:5173
